@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="@drawable/vertical"
+    android:alpha="0.75"
+    android:scaleType="centerCrop">
+
+    <TextView
+        android:id="@+id/greetingMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="22"
+        android:textSize="28sp"
+        android:layout_marginBottom="20sp"
+        android:textAlignment="center"
+        android:textColor="#6373b7"/>
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:hint="Would you like to share me with your name?"
+        android:textSize="13sp"
+        android:padding="10dp"
+        android:textColorHint="#bec9e7"
+        android:layout_marginTop="120sp"
+        android:gravity="center"
+        android:textColor="#bec9e7"
+        />
+
+    <Button
+        android:id="@+id/greetButton"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:text="Greet Me!"
+        android:textColor="#bec9e7"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/circle_button"/>
+
+
+</LinearLayout>
